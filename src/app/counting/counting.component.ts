@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
     selector: 'app-counting',
@@ -6,8 +6,6 @@ import { Component, Input } from '@angular/core';
     styleUrls :['./counting.component.css']
 })
 export class CountingComponent {
-    @Input()
-    title: string;
 
     count = 0;
     constructor() { }

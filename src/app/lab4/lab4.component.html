@@ -1,0 +1,6 @@
+<p
+  *ngFor="let item of arr"
+  [ngClass]="{ 'number-even': item % 2 === 0, 'number-odd': item % 2 !== 0 }"
+>
+  {{ item }}
+</p>
